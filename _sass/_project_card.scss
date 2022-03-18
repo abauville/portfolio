@@ -1,19 +1,54 @@
 .card-container {
-  background-color: red;
   display: grid;
-  grid-gap: 8px;
+  grid-gap: 16px;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  grid-template-rows: repeat(2, 300px);
+  grid-template-rows: repeat(2, 340px);
 }
 
 .card {
-  // grid-column: 1 / 3;
-  // grid-row: 1;
-  background-color: blue;
+  background-color: rgb(243, 238, 232);
+  border-radius: 8px;
   .project-cover {
+    border-radius: 8px 8px 0 0;
     width: 100%;
-    height: 80%;
+    height: 70%;
     background-size: cover;
     background-position: center;
+    position: relative;
+    &:hover .project-hidden {
+      visibility: visible;
+    }
+  }
+  .project-hidden {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    border-radius: 8px 8px 0 0;
+    padding: 32px;
+    color: white;
+    font-size: 32px;
+
+    a {
+      text-decoration: none;
+      color: white;
+    }
+    // visibility: hidden;
+
+  }
+  .card-info {
+    margin: 8px 8px;
+  }
+  h3 {
+    margin: 0;
+    padding: 0;
+  }
+  p {
+    margin: 4px 0;
+  }
+  .tech-img {
+    width: 20px;
   }
 }
