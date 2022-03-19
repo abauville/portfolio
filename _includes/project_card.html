@@ -1,6 +1,6 @@
 
 <div class="card">
-  <div class="project-cover" style="background-image: url('./assets/images/melodict_cover.png');">
+  <div class="project-cover" style="background-image: url({{ project.cover_url }});">
     <div class="project-hidden">
       <div class="tech-stack-container">
         <img class="tech-img" src="./assets/images/icons/html-5.svg" alt="html5" title="html5">
@@ -17,8 +17,8 @@
   </div>
 
   <div class="card-info">
-    <h3>Melodict</h3>
-    <p>A community driven ear training app focused on melody dictation.</p>
+    <h3>{{ project.name }}</h3>
+    <p>{{ project.description }}</p>
 
   </div>
 </div>
