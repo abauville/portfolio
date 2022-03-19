@@ -1,6 +1,24 @@
+// fonts
+$header-font: "Josefin Sans", Arial, Helvetica, sans-serif;
+$body-font: "Cabin", Arial, Helvetica, sans-serif;
+
+// colors
+$white: #f7f3ee;
+
 .container {
   margin: 0 auto;
   width: 80%;
   min-width: 400px;
   max-width: 1200px;
+}
+
+body {
+  font-family: $body-font;
+  background-color: rgb(42, 44, 56);
+  color: $white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $header-font;
+  color: $white;
 }
