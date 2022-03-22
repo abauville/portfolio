@@ -7,28 +7,34 @@ my_msg: "Hello world!"
   <img class="avatar" src="assets/images/ID_pic.png" alt="mugshot">
 
   <h1>Arthur Bauville</h1>
-  <h2>Software developer</h2>
-
-  <h2>
-    <i class="fa-solid fa-location-dot"></i>
-    <!-- <span class="material-icons">&#xE87C;</span> -->
-    Yokohama, Japan
-  </h2>
 </header>
 <div class="container">
-  <h2>Web projects</h2>
-  <!-- <hr> -->
-  <div class="card-container">
-    {% for project in site.data.web_projects %}
-      {% include project_card.html %}
-    {% endfor %}
+  <div class="section">
+    <h2 class="section-title">Bio</h2>
+    <div class="bio-content">
+      <p>Hi, I'm Arthur, a <strong>web/software developer</strong> in Yokohama, Japan. I'm passionate with programming, music and science. Check some of my work below, or reach out to me.</p>
+      <p class="social-links">
+        <a href="https://www.linkedin.com/in/arthur-bauville/"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://github.com/abauville"><i class="fa-brands fa-github"></i></a>
+      </p>
+    </div>
   </div>
-  <h2>Scientific software</h2>
-  <div class="card-container">
-    {% for project in site.data.science_software %}
-      {% include project_card.html %}
-    {% endfor %}
-</div>
+  <div class="section">
+    <h2 class="section-title">Web projects</h2>
+    <div class="card-container">
+      {% for project in site.data.web_projects %}
+        {% include project_card.html %}
+      {% endfor %}
+    </div>
+  </div>
+  <div class="section">
+    <h2 class="section-title">Scientific software</h2>
+    <div class="card-container">
+      {% for project in site.data.science_software %}
+        {% include project_card.html %}
+      {% endfor %}
+    </div>
+  </div>
 </div>
   <!-- <h3>NeighborStudio</h3>
   <img width="1000" alt="Screen Shot 2022-03-17 at 15 36 41" src="https://user-images.githubusercontent.com/39847270/158751140-29e17991-736b-4510-9931-2b19ddbe0ec5.png"> -->

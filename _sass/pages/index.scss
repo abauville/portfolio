@@ -1,0 +1,30 @@
+.section-title {
+    text-align: center;
+    margin: 8px 0 32px 0;
+    font-size: 32px;
+}
+
+.social-links {
+    text-align: center;
+    font-size: 32px;
+    margin: 8px;
+}
+
+a {
+    text-decoration: None;
+    color: $white;
+}
+
+.section {
+    background-color: #f7f3ee14;
+    border-radius: 8px;
+    padding: 24px;
+    margin-top: 32px;
+}
+
+.bio-content {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+
+}

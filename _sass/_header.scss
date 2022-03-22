@@ -2,7 +2,9 @@ header {
   text-align: center;
   background-color: rgb(31, 31, 36);
   // background-image: url('../images/header_background/Screen Shot 2022-03-22 at 16.44.42.png');
-  background-image: url('../images/header_background/Screen Shot 2022-03-22 at 16.45.13.png');
+  background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url('../images/header_background/Screen Shot 2022-03-22 at 16.45.13.png');
   background-position: center;
   background-size: cover;
   text-shadow: 0 0 4px black;
