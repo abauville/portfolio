@@ -1,7 +1,7 @@
 .section-title {
     text-align: center;
     margin: 8px 0 32px 0;
-    font-size: 32px;
+    font-size: 40px;
 }
 
 .social-links {
@@ -19,7 +19,9 @@ a {
     background-color: #f7f3ee14;
     border-radius: 8px;
     padding: 24px;
-    margin-top: 32px;
+    margin-top: 64px;
+    // border: 1px solid $white;
+    box-shadow: 1px 1px 2px 1px #f7f3ee5e;
 }
 
 .bio-content {

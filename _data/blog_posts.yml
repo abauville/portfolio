@@ -1,0 +1,42 @@
+-
+  name: Neural style transfer
+  description: Neural style transfer with PyTorch
+  web_url: https://abauville.github.io/blog/deep-learning/pytorch/computer-vision/from%20scratch/2021/07/20/neural-style-transfer.html
+  github_url: https://github.com/abauville/blog/blob/master/_notebooks/2021-07-20-neural-style-transfer.ipynb
+  cover_url: https://abauville.github.io/blog/images/Covers/2021_07_20.png
+-
+  name: Feature inversion
+  description: Feature visualization with PyTorch
+  web_url: https://abauville.github.io/blog/deep-learning/pytorch/computer-vision/from%20scratch/2021/07/16/feature-inversion.html
+  github_url: https://github.com/abauville/blog/blob/master/_notebooks/2021-07-16-feature-inversion.ipynb
+  cover_url: https://abauville.github.io/blog/images/Covers/2021_07_16.png
+-
+  name: Display the live webcam feed in a Jupyter notebook using OpenCV
+  description: Getting started with OpenCV and Jupyter notebook
+  web_url: https://abauville.github.io/blog/jupyter/opencv/computer-vision/2021/07/15/webcam-capture.html
+  github_url: https://github.com/abauville/blog/blob/master/_notebooks/2021-07-15-webcam-capture.ipynb
+  cover_url: https://abauville.github.io/blog/images/2021_07_15_webcam_capture/webcam_shot.png
+-
+  name: Convolutional neural networks for solving PDEs
+  description: Writing an iterative multigrid PDE solver as a convolutional neural network
+  web_url: https://abauville.github.io/blog/neural%20networks/2021/06/17/CNN-solver.html
+  github_url: https://github.com/abauville/blog/blob/master/_notebooks/2021-06-17-CNN-solver.ipynb
+  cover_url: https://abauville.github.io/blog/images/Covers/2021_06_17.png
+-
+  name: x.grad demystified
+  description: An introduction to automatic differentiation with PyTorch and computing a gradient field
+  web_url: https://abauville.github.io/blog/neural%20networks/2021/05/19/PyTorch-gradient.html
+  github_url: https://github.com/abauville/blog/blob/master/_notebooks/2021-05-19-PyTorch-gradient.ipynb
+  cover_url: https://abauville.github.io/blog/images/Covers/2021_05_19.png
+-
+  name: Superpixels from scratch
+  description: Image segmentation using K-means clustering
+  web_url: https://abauville.github.io/blog/image%20processing/unsupervised%20learning/from%20scratch/computer-vision/2021/05/11/superpixel.html
+  github_url: https://github.com/abauville/blog/blob/master/_notebooks/2021-05-11-superpixel.ipynb
+  cover_url: https://abauville.github.io/blog/images/Covers/2021_05_11.png
+-
+  name: WaiDatathon 2021 - "Combat domestic violence with data and AI"
+  description: Detecting women at risk of domestic violence
+  web_url: https://abauville.github.io/blog/supervised%20learning/eda/competition/2021/04/21/wai-datathon.html
+  github_url: https://github.com/abauville/blog/blob/master/_notebooks/2021-04-21-wai-datathon.ipynb
+  cover_url: https://abauville.github.io/blog/images/Covers/2021_04_21.png

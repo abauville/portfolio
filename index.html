@@ -5,9 +5,9 @@ my_msg: "Hello world!"
 ---
 <header>
   <img class="avatar" src="assets/images/ID_pic.png" alt="mugshot">
-
   <h1>Arthur Bauville</h1>
 </header>
+
 <div class="container">
   <div class="section">
     <h2 class="section-title">Bio</h2>
@@ -19,6 +19,7 @@ my_msg: "Hello world!"
       </p>
     </div>
   </div>
+
   <div class="section">
     <h2 class="section-title">Web projects</h2>
     <div class="card-container">
@@ -27,6 +28,7 @@ my_msg: "Hello world!"
       {% endfor %}
     </div>
   </div>
+
   <div class="section">
     <h2 class="section-title">Scientific software</h2>
     <div class="card-container">
@@ -35,6 +37,13 @@ my_msg: "Hello world!"
       {% endfor %}
     </div>
   </div>
+
+  <div class="section">
+    <h2 class="section-title">Blog posts</h2>
+    <div class="card-container">
+      {% for project in site.data.blog_posts %}
+        {% include project_card.html %}
+      {% endfor %}
+    </div>
+  </div>
 </div>
-  <!-- <h3>NeighborStudio</h3>
-  <img width="1000" alt="Screen Shot 2022-03-17 at 15 36 41" src="https://user-images.githubusercontent.com/39847270/158751140-29e17991-736b-4510-9931-2b19ddbe0ec5.png"> -->
