@@ -1,0 +1,5 @@
+<div class="tech-stack-container">
+    {% for tech in project.tech_stack %}
+        <img class="tech-img" src="./assets/images/icons/{{ tech | slugify }}.svg" alt="{{ tech }}" title="{{ tech }}">
+    {% endfor %}
+</div>

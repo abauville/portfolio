@@ -4,15 +4,39 @@
   web_url: http://www.melodict.xyz/
   github_url: https://github.com/abauville/lickwars
   cover_url: ./assets/images/covers/melodict.png
+  tech_stack: 
+    - Ruby
+    - Ruby on Rails
+    - HTML
+    - CSS
+    - Javascript
+    - Bootstrap
+    - Stimulus
 -
   name: NeighborStudio
   description: Rent music rooms from private individuals.
   web_url: https://neighbor-studio.herokuapp.com/
   github_url: https://github.com/abauville/neighbor-studio
   cover_url: ./assets/images/covers/neighbor-studio.png
+  tech_stack: 
+    - Ruby
+    - Ruby on Rails
+    - HTML
+    - CSS
+    - Javascript
+    - Bootstrap
+    - Stimulus
 -
   name: WatchList
   description: Browse and create your own movie watch list.
   web_url: https://abauville-rails-watch-list.herokuapp.com/
   github_url: https://github.com/abauville/rails-watch-list
   cover_url: ./assets/images/covers/watch-list.png
+  tech_stack: 
+    - Ruby
+    - Ruby on Rails
+    - HTML
+    - CSS
+    - Javascript
+    - Bootstrap
+    - Stimulus

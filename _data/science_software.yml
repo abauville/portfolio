@@ -3,23 +3,39 @@
   description: 2D simulation of geodynamical thermomechanical processes based on the finite difference method.
   github_url: https://github.com/abauville/Sunaba
   cover_url: https://www.researchgate.net/profile/Arthur-Bauville/publication/339624541/figure/fig10/AS:1098294394654722@1638865197343/Wedge-geometry-colors-and-fault-geometry-black-of-the-three-simulations-archetypal-of.png
+  tech_stack:
+    - C
+    - Python
+    - Numpy
+    - Matplotlib
+    - OpenGL
 -
   name: geomIO
   description: 3D geometric modeling from serial vector drawings. Used to initialize numerical simulations. Written in MATLAB.
   web_url: https://geomio.bitbucket.io/
   github_url: https://bitbucket.org/geomio/geomio/src/master/
   cover_url: https://www.researchgate.net/profile/Tobias-Baumann-4/publication/330763500/figure/fig4/AS:728651335221248@1550735424160/Constructing-a-3D-model-with-the-main-geological-regions-of-the-Himalayas-and-the-Tibetan_W640.jpg
+  tech_stack:
+    - MATLAB
+    - SVG
+    - Inkscape
 -
   name: CriticalTaper-utils
   description: Python scripts to compute and visualize the solutions of the critical taper theory.
   web_url: https://zenodo.org/record/3251524
   github_url: https://github.com/abauville/CriticalTaper-utils
   cover_url: https://www.researchgate.net/profile/Arthur-Bauville/publication/339624541/figure/fig3/AS:1098294268825601@1638865167131/The-critical-taper-envelope-is-solution-of-the-equation-a-bpsb-ps0-In-this-equation-a-is_W640.jpg
+  tech_stack:
+    - Python
+    - Numpy
 -
   name: FortyTwoFEM
   description: A Stokes flow solver based on the finite element method. Written in Matlab.
   github_url: https://github.com/abauville/FortyTwoFEM
   cover_url: ./assets/images/covers/FortyTwoFEM.png
+  tech_stack:
+    - Python
+    - Numpy
 
   
 # SPH_solver: a fluid dynamics solver based on the smoothed-particle hydrodynamics (SPH) method. Written in Python and optimized with Numba.
