@@ -10,8 +10,12 @@
         <img class="tech-img" src="./assets/images/icons/postgresql.svg" alt="postgresql" title="postgresql">
       </div>
       <div class="link-container">
-        <a href="#"><i class="fas fa-globe" title="view on the web"></i></a>
-        <a href="#"><i class="fab fa-github" title="view on github"></i></a>
+        {% if project.web_url %}
+        <a href="{{ project.web_url }}"><i class="fas fa-globe" title="view on the web"></i></a>
+        {% endif %}
+        {% if project.github_url %}
+        <a href="{{ project.github_url }}"><i class="fab fa-github" title="view on github"></i></a>
+        {% endif %}
       </div>
     </div>
   </div>

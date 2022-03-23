@@ -1,7 +1,6 @@
 -
   name: Sunaba
   description: 2D simulation of geodynamical thermomechanical processes based on the finite difference method.
-  web_url: None
   github_url: https://github.com/abauville/Sunaba
   cover_url: https://www.researchgate.net/profile/Arthur-Bauville/publication/339624541/figure/fig10/AS:1098294394654722@1638865197343/Wedge-geometry-colors-and-fault-geometry-black-of-the-three-simulations-archetypal-of.png
 -
@@ -19,7 +18,6 @@
 -
   name: FortyTwoFEM
   description: A Stokes flow solver based on the finite element method. Written in Matlab.
-  web_url: None
   github_url: https://github.com/abauville/FortyTwoFEM
   cover_url: ./assets/images/covers/FortyTwoFEM.png
 
