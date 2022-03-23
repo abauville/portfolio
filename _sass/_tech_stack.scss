@@ -1,12 +1,12 @@
 .tech-stack-container {
-    position: absolute;
-    display: flex;
+    // position: absolute;
     right: 16px;
     top: 4px;
     div {
-      font-size: 10px;
-      text-align: center;
-      margin: 0 8px 0px 8px;
+        display: inline-block;
+        font-size: 10px;
+        text-align: center;
+        margin: 0 4px 0px 4px;
     }
 }
 .tech-img {

@@ -11,7 +11,7 @@
     - OpenGL
 -
   name: geomIO
-  description: 3D geometric modeling from serial vector drawings. Used to initialize numerical simulations. Written in MATLAB.
+  description: 3D geometric modeling from serial vector drawings to initialize numerical simulations.
   web_url: https://geomio.bitbucket.io/
   github_url: https://bitbucket.org/geomio/geomio/src/master/
   cover_url: https://www.researchgate.net/profile/Tobias-Baumann-4/publication/330763500/figure/fig4/AS:728651335221248@1550735424160/Constructing-a-3D-model-with-the-main-geological-regions-of-the-Himalayas-and-the-Tibetan_W640.jpg
