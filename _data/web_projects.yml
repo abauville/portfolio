@@ -40,3 +40,13 @@
     - Javascript
     - Bootstrap
     - Stimulus
+-
+  name: Minesweeper
+  description: A simple minesweeper clone
+  web_url: https://abauville.github.io/Minesweeper/
+  github_url: https://github.com/abauville/Minesweeper
+  cover_url: ./assets/images/covers/minesweeper.png
+  tech_stack: 
+    - HTML
+    - CSS
+    - Javascript
